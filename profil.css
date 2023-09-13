@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.home{
+    height: 100px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo{
+    color: wheat;
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: black;
+    transition: 0.5;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navlink{
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    color: black;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #c97e7e;
+}
+
+.card{
+    background: rgba(255, 255, 255,0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px 50px;
+    margin: 30px auto;
+    width: 70%;
+}
+
+img{
+    width: 200pt;
+    height: 200pt;
+    border-radius: 50%;
+    border: solid 3px white;
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-size: 30px;
+    background-color: rgb(126, 42, 42);
+    color: snow;
+    border: 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}

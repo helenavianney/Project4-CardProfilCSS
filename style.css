@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #c97e7e;
+}
+
+.home{
+    height: 100px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo{
+    color: wheat;
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: black;
+    transition: 0.5;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navlink{
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    color: black;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 20px;
+    margin-left: 500px;
+    position: absolute;
+}
+
+.profiltext{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+
+}
+
+h2{
+    color: ghostwhite;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+h4{
+    color: bisque;
+    font-size: 30px;
+}
+
+.btn{
+    font-size: 30px;
+    background-color: rgb(126, 42, 42);
+    color: snow;
+    border: 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
